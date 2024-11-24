@@ -1,0 +1,31 @@
+.productContainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 30px;
+    width:100%;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.addToCart{
+    padding:10px;
+    background-color: orangered;
+    color: aliceblue;
+    font-weight: 300;
+    border: 0;
+    border-radius: 10px;
+}
+.addToCart:active{
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.innerDiv{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+}

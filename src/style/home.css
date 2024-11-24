@@ -1,0 +1,23 @@
+.intro{
+   margin-left: 400px;
+   margin-top: 50px;;
+   /* text-align: center; */
+    width:700px;
+    border: 1px solid black;
+    padding:30px;
+    border-radius: 20px;
+    font-size: 28px;
+    color: rgb(54, 39, 39);
+    background-color: antiquewhite;
+}
+.homeContainer{
+    display: flex;
+    flex-direction: column;
+    gap:100px;
+    height: 100vh;
+}
+.homeContainer h2{
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 20px;
+}

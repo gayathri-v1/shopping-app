@@ -1,0 +1,30 @@
+.cartProduct{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    gap:10px;
+    border: 1px solid #ccc;
+    padding:10px;
+    margin-bottom: 10px;
+}
+.removeCart{
+    padding:5px 10px;
+    background-color: orangered;
+    border: 0;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+.removeCart:active{
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+
+.pay{
+    padding:10px;
+    background-color: rgb(13, 129, 171);
+    border: 0;
+    color: black;
+    font-weight: 300;
+    cursor: pointer;
+}
